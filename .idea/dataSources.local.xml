@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="demo/Hibernate" uuid="424cd614-398e-4e85-be7f-27ddad7df631">
+      <database-info product="PostgreSQL" version="15.3" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="15.3" exact-driver-version="42.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>admin</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
