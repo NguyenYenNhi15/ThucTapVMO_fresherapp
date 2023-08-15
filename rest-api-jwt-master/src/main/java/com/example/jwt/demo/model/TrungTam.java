@@ -2,12 +2,11 @@ package com.example.jwt.demo.model;
 
 
 import javax.persistence.*;
-import java.io.Serializable;
 
 @Entity
 
 @Table(name = "trung_tam")
-public class TrungTam implements Serializable {
+public class TrungTam {
     private static final long serialVersionUID = -3542589964153392334L;
     @Id
     @Column(name = "id", nullable = false)

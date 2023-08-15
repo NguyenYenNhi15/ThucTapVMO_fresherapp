@@ -1,6 +1,8 @@
 package com.example.jwt.demo.response;
 
+
 import org.springframework.http.HttpStatus;
+
 
 public class FresherResponse {
     private String Message;

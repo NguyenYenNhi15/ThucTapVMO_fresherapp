@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public interface FresherService {
     Fresher doAdd(Fresher fresher);
     List<Fresher>SearchData(String name,String email,String tt_code);

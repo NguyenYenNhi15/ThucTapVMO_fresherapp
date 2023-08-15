@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ThucTapVMO_fresherapp.iml" filepath="$PROJECT_DIR$/.idea/ThucTapVMO_fresherapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/rest-api-jwt-master/demo.iml" filepath="$PROJECT_DIR$/rest-api-jwt-master/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/thucTapVMOvs2.iml" filepath="$PROJECT_DIR$/.idea/thucTapVMOvs2.iml" />
     </modules>
   </component>
 </project>

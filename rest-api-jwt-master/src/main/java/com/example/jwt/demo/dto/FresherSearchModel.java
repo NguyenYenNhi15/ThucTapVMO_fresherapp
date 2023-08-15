@@ -1,5 +1,8 @@
 package com.example.jwt.demo.dto;
 
+
+
+
 public class FresherSearchModel {
     private String name;
     private String email;
