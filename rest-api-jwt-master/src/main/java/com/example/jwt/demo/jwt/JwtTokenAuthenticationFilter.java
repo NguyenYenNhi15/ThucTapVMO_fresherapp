@@ -21,7 +21,6 @@ import java.util.stream.Collectors;
 @Order(1)
 public class JwtTokenAuthenticationFilter extends OncePerRequestFilter {
 
-
     private final JwtAuthenticationConfig config;
 
     public JwtTokenAuthenticationFilter(JwtAuthenticationConfig config) {
@@ -49,10 +48,6 @@ public class JwtTokenAuthenticationFilter extends OncePerRequestFilter {
                     if (username != null) {
                         UsernamePasswordAuthenticationToken auth = new UsernamePasswordAuthenticationToken(username, null,
                                 authorities.stream().map(SimpleGrantedAuthority::new).collect(Collectors.toList()));
-
-                       /* RequestContext ctx = RequestContext.getCurrentContext();
-                        ctx.("user", uuid);*/
-//                    ctx.addZuulRequestHeader("email", email);
                         SecurityContextHolder.getContext().setAuthentication(auth);
                     }
                 }

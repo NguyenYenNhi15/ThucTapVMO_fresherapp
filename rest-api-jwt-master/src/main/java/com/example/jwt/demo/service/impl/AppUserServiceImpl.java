@@ -21,8 +21,6 @@ import java.util.Optional;
 
 @Service
 public class AppUserServiceImpl implements AppUserService {
-
-
     private final UserRepository userRepository;
     private final BCryptPasswordEncoder bCryptPasswordEncoder;
 

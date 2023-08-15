@@ -4,7 +4,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
 
-
 @Configuration
 public class CustomValidateException {
 
