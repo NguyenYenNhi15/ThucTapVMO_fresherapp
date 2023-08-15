@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="demo/Hibernate" uuid="424cd614-398e-4e85-be7f-27ddad7df631">
+    <data-source source="LOCAL" name="quanlyfresher@dpg-cilcqg95rnuvtgrn4v30-a.singapore-postgres.render.com" uuid="1fcaaf37-0b67-488b-ac07-a6ee8b1b2663">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>Hibernate</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://dpg-cilcqg95rnuvtgrn4v30-a.singapore-postgres.render.com/quanlyfresher</jdbc-url>
+      <jdbc-url>jdbc:postgresql://dpg-cilcqg95rnuvtgrn4v30-a.singapore-postgres.render.com:5432/quanlyfresher</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="MySQL - @localhost" uuid="5e989670-48a0-441c-8fd1-fc3bd918aa8a">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

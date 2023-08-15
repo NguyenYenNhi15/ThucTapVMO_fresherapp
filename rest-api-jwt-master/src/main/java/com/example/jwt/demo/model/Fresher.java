@@ -1,13 +1,13 @@
 package com.example.jwt.demo.model;
 
 
-
 import javax.persistence.*;
+import java.io.Serializable;
 
 
 @Entity
 @Table(name = "fresher")
-public class Fresher {
+public class Fresher implements Serializable {
     private static final long serialVersionUID = -3542589964153392334L;
 
     @Id
@@ -36,7 +36,7 @@ public class Fresher {
     @Column(name = "id_tt")
     private String id_tt;
 
-    @Column(name="diem_TB")
+    @Column(name = "diem_TB")
     private float diem_TB;
 
     public float getDiem_1() {
