@@ -7,7 +7,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
 public interface TrungTamReponsitory extends JpaRepository<TrungTam, Long> {
     @Query("select T from TrungTam T where T.ten_trung_tam =:name")
     List<TrungTam> SearchData(String name);

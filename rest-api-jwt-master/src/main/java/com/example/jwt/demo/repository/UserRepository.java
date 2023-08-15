@@ -10,8 +10,7 @@ import javax.transaction.Transactional;
 import java.util.Optional;
 
 public interface UserRepository extends JpaRepository<AppUser, Integer> {
-
-
+    
     @Modifying
     @Query("update AppUser u set u.refresh_token = :refresh_token WHERE u.user_email= :user_email")
     @Transactional

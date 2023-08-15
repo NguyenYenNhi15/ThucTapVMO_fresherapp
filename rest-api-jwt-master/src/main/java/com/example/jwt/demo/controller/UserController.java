@@ -11,9 +11,6 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
-/**
- * created by Anuradha Ranasinghe
- **/
 @RestController
 @RequestMapping("/app_user")
 public class UserController {

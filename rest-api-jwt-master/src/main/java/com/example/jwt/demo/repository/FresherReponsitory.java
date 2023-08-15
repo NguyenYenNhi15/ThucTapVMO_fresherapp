@@ -7,7 +7,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
 public interface FresherReponsitory extends JpaRepository<Fresher, Long> {
     @Query("select f from Fresher f where f.name =:name or f.email=:email or f.tt_code=:tt_code ")
     List<Fresher>SearchModel(String name , String email, String tt_code);
