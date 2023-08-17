@@ -1,6 +1,5 @@
 # ThucTapVMO_fresherapp
-https://github.com/NguyenYenNhi15/thuctapVMO
-- Quản lý Fresher
+https://github.com/NguyenYenNhi15/thuctapVMO- Quản lý Fresher
     - View Số Lượng Fresher
     - Thêm Fresher mới
     - Xóa Fresher cũ
